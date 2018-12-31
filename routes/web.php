@@ -14,7 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/help', 'StaticPagesController@help');
-Route::get('/about', 'StaticPagesController@about');
-Route::get('/',  'StaticPagesController@home');
-origin git@github.com:marioshuairen/hello_laravel
+Route::get('/help', 'StaticPagesController@help')->name('help');
+Route::get('/about', 'StaticPagesController@about')->name('about');
+Route::get('/',  'StaticPagesController@home')->name('home');
+Route::get('/login','UsersController@login')->name('login');
