@@ -1,0 +1,60 @@
+.brod1{
+    border:1px solid #ccc;
+
+    background-color: #fff;
+
+    margin: 15px 0 20px 0;
+}
+.brodn{
+    width: 98%;
+    margin: 10px 0 10px 1%;
+
+}
+.brodn_l{
+    border-bottom:1px solid #ccc;
+}
+.brodn_left{
+    width: 6%;
+    float: left;
+    padding: 5px 0;
+}
+.brodn_right{
+    float: right;
+    width: 94%;
+    padding: 5px 0;
+    line-height: 25px;
+}
+.brodn_right span{
+    padding: 0 10px;
+
+}
+.rightbutton {
+    margin-bottom: 20px;
+    text-align: right;
+}
+.tishi{
+    margin-bottom: 20px;
+}
+.login_bg{
+    background:url(../../production/images/img/t5.png) top center no-repeat; background-size:cover;
+
+}
+.login_dl{
+    position: absolute;
+    top:25%;
+    right: 8%;
+    width: 444px;
+    height: 400px;
+    background-image:url(../../production/images/img/t3.png) ;
+}
+.login_dl2{
+    padding-top: 120px;
+}
+.has-feedback-left-1{
+    padding-left: 60px;
+}
+.login_imgleft{
+    position: absolute;
+    top:40%;
+    left: 10%;
+}
